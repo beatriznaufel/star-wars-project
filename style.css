@@ -1,0 +1,211 @@
+body {
+  background-color: #030422;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Cards {
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: absolute;
+  width: 27.25rem;
+  height: 38rem;
+  left: calc(50% - 27.25rem / 2);
+  top: calc(50% - 38rem / 2);
+  box-shadow: 0rem 18.375rem 7.375rem rgba(0, 0, 0, 0.03),
+    0rem 10.3125rem 6.1875rem rgba(0, 0, 0, 0.1), 0rem 4.5625rem 4.5625rem rgba(0, 0, 0, 0.17),
+    0rem 1.125rem 2.5rem rgba(0, 0, 0, 0.2), 0rem 0rem 0rem rgba(0, 0, 0, 0.2);
+  border-radius: 1.25rem;
+}
+
+.card img {
+  border-radius: 1rem;
+}
+
+.cardTitle {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0rem;
+
+  position: absolute;
+  width: 16.4375rem;
+  height: 6.875rem;
+  left: 2.5rem;
+  top: 2.5rem;
+
+  color: #ECE4EF;
+}
+
+.cardTitle h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+}
+
+.cardTitle p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.125rem;
+  margin: 0;
+}
+
+.cardInfos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0rem;
+
+  position: absolute;
+  width: 12.375rem;
+  height: 19.25rem;
+  left: 2.5rem;
+  bottom: 5.125rem;
+  gap: 1rem;
+
+  color: #ECE4EF;
+  font-size: .875rem;
+}
+
+.Details h4 {
+  color: #9C83A7;
+  margin: 0;
+}
+
+.Details p {
+  margin: 0;
+}
+
+.characterImage {
+  position: absolute;
+  width: 26.6875rem;
+  height: 34.875rem;
+  right: -6.4375rem;
+  bottom: 0rem;
+}
+
+.cardInfos {
+  position: absolute;
+}
+
+.firstCard {
+  position: absolute;
+  width: 21.75rem;
+  height: 30.4rem;
+  left: 31.25rem;
+  top: calc(50% - 30.4rem/2 + .0125rem);
+
+  background: #121214;
+  box-shadow: 0rem 7.0625rem 2.8125rem rgba(0, 0, 0, 0.02), 0rem 4rem 2.375rem rgba(0, 0, 0, 0.08), 0rem 1.75rem 1.75rem rgba(0, 0, 0, 0.13), 0rem .4375rem 1rem rgba(0, 0, 0, 0.15), 0rem 0rem 0rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+}
+
+.firstCard p {
+  position: absolute;
+  width: 4.8125rem;
+  height: 2.5rem;
+  left: calc(50% - 4.8125rem / 2 + .0313rem);
+  top: calc(50% - 2.5rem / 2 - .0125rem);
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: transparent;
+  -webkit-text-stroke-width: .0625rem;
+  -webkit-text-stroke-color: #312D74;
+}
+
+.firstCard img {
+  position: absolute;
+  width: 21.75rem;
+  height: 30.375rem;
+  left: 0rem;
+  top: 0rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(0deg, rgba(0, 1, 14, 0.5), rgba(0, 1, 14, 0.5)), linear-gradient(148.95deg, rgba(14, 23, 101, 0.85) -7.05%, rgba(42, 17, 92, 0.85) 110.07%);
+}
+
+.secondCard {
+  position: absolute;
+  width: 21.75rem;
+  height: 30.4rem;
+  left: calc(50% - 21.75rem / 2 + 17.75rem);
+  top: calc(50% - 30.4rem / 2 + .0125rem);
+
+  background: #121214;
+  box-shadow: 0rem 7.0625rem 2.8125rem rgba(0, 0, 0, 0.02),
+    0rem 4rem 2.375rem rgba(0, 0, 0, 0.08), 0rem 1.75rem 1.75rem rgba(0, 0, 0, 0.13),
+    0rem .4375rem 1rem rgba(0, 0, 0, 0.15), 0rem 0rem 0rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+}
+
+.secondCard p {
+  position: absolute;
+  width: 4.8125rem;
+  height: 2.5rem;
+  left: calc(50% - 4.8125rem / 2 + .0313rem);
+  top: calc(50% - 2.5rem / 2 - .0125rem);
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: transparent;
+  -webkit-text-stroke-width: .0625rem;
+  -webkit-text-stroke-color: #312D74;
+}
+
+.secondCard img {
+  position: absolute;
+  width: 21.75rem;
+  height: 30.375rem;
+  left: 0rem;
+  top: 0rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(0deg, rgba(0, 1, 14, 0.5), rgba(0, 1, 14, 0.5)),
+    linear-gradient(148.95deg,
+      rgba(14, 23, 101, 0.85) -7.05%,
+      rgba(42, 17, 92, 0.85) 110.07%);
+}
+
+.thirdCard {
+  position: absolute;
+}
+
+.thirdCard p {
+  position: absolute;
+}
+
+.thirdCard img {
+  position: absolute;
+}
+
+.imageBehind img {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 29.44%;
+
+  background: linear-gradient(180.28deg, rgba(5, 8, 36, 0.88) 0.25%, rgba(255, 255, 255, 0.88) 0.26%, rgba(255, 255, 255, 0) 99.75%
+  }
